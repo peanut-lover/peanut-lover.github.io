@@ -1,0 +1,4 @@
+// add bundle package
+bundle add <package>
+// start jekyll local server
+bundle exec jekyll serve

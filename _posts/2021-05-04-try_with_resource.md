@@ -1,6 +1,6 @@
 ---
 title: "Try with Resousce in java(작성 중...)"
-date: 2021-05-05 08:00:00 -0400
+date: 2021-05-07 08:00:00 -0400
 categories: jekyll update
 ---
 

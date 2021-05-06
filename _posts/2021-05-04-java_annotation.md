@@ -166,18 +166,17 @@ public class Main {
 
 # 어노테이션 프로세싱
 
-어노테이션 프로세싱은 compile time 에 발생하며 javac 동작시 특정 어노테이션을 탐색하고 처리하기 위한 방법입니다.
+Annotation Processing은 어노테이션을 이용해서 새로운 리소스(문서 혹은 자바코드)를 생성해낼수 있는 방법을 의미하고 과정은 아래와 같습니다.
 
 어노테이션 프로세서는 input으로 자바코드를 받고 output으로 파일(주로 java file)을 생성합니다. 즉, 상황에 맞는 자바코드를 생성할 수 있다는 것을 의미합니다. 하지만 기존에 존재하는 자바 class를 수정할 수는 없습니다.
 
 전체적인 과정은 아래와 같습니다.
 
-1. 어노테이션 클래스들을 작성
-2. 어노테이션 처리하는 클래스(annotation parser class)들을 작성
-3. 프로젝트에 어노테이션을 적용
-4. 컴파일을 시작하면 어노테이션 처리 클래스들 어노테이션에 대한 처리를 시작
-5. 그리고 자동으로 생성된 클래스들은 Build folder 추가될 것입니다.
-6. 처리되지않은 Annotation Processor가 남아있다며 4번부터 다시 반복
+1. 컴파일을 시작
+2. 컴파일 파이프라인에 추가되어있는 Annotation Processor를 실행합니다.
+3. 각 Annotation Element를 처리합니다.
+4. 새로운 Resource File을 생성합니다.
+5. 컴파일 파이프라인에 Annotation Processor 가 남아있다면 2번부터 반복합니다.
 
 Annotation Parser class는 프로젝트를 컴파일할 때만 오직 필요하다는 것을 알아야합니다. 배포시 어플리케이션에는 포함될 필요가 없습니다.
 

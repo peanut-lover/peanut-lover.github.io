@@ -31,9 +31,7 @@ categories: java reflection
 >
 > https://www.geeksforgeeks.org/reflection-in-java/
 
-# 목차
+# Reflection의 원리
 
-# Reflection
-
-(작성 중...)
-왜 리플렉션이 가능한가?
+Reflection이 가능한 이유는 ...
+(작성)

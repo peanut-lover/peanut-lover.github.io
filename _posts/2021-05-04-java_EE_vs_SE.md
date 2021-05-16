@@ -50,8 +50,5 @@ Java EE은 다양하고 중요한 개념들을 가지고 있기 때문에 더 �
 > - [Oracle Java EE Overview](https://docs.oracle.com/javaee/6/firstcup/doc/gkhoy.html)
 >
 > - [Spring Framework](https://docs.spring.io/spring-framework/docs/current/reference/html/overview.html#overview)
-
-## 추가로 알면 좋은 내용
-
-Java EE 문서를 살펴보다보면 Spring에서 사용되던 유사한 개념과 기술들이 많이 보입니다.
-아래 글을 통해 왜이렇게 유사한 개념들이 등장했는지에 관련된 [링크](https://okky.kr/article/415474)를 남깁니다.
+>
+> - [한국에서의 Spring](https://okky.kr/article/415474)

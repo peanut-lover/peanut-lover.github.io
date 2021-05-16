@@ -19,7 +19,7 @@ locale: "en-US"
 title: "Peanut-lover Dev Blog"
 title_separator: "-"
 subtitle: # site tagline that appears below site title in masthead
-name: "sonjiho"
+name: "jiho son"
 description: "Information for all"
 url: # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl: # the subpath of your site, e.g. "/blog"
@@ -93,9 +93,9 @@ analytics:
 
 # Site Author
 author:
-  name: "son ji ho"
+  name: "jihoson"
   avatar: # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio: "I am an not **amazing** person."
+  bio: "Agile Developer"
   location: "Korea"
   email: "jihoson94@gmail.com"
   links:
